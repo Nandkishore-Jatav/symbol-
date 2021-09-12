@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>01 Symbol Document</title>
+</head>
+<body>
+    <script>
+        let id = Symbol();
+        
+        // document.write(id);
+        console.log(id);
+        //******************************
+        let id1 = Symbol("hello");
+        let id2 = Symbol("Hello");
+
+        document.write(id1 === id2);
+        document.write("<br>");
+        console.log(id1 == id2);
+
+        let name1 = "Hello";
+        let name2 = "Hello";
+
+        document.write(name1 === name2);
+        document.write("<br>");
+
+        //*******************************
+        
+        
+    </script>
+</body>
+</html>
